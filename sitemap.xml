@@ -2,49 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ckblogs.cn/google0b3aa3aa9ec334d1.html</loc>
+    <loc>http://ckblogs.cn/2021/04/13/TEST/</loc>
     
-    <lastmod>2021-04-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ckblogs.cn/baidu_verify_code-zlKMlzb7eU.html</loc>
-    
-    <lastmod>2021-04-12</lastmod>
+    <lastmod>2021-04-13</lastmod>
     
   </url>
   
   <url>
-    <loc>http://ckblogs.cn/2021/04/10/%E6%B5%8B%E8%AF%95%E5%A2%9E%E5%8A%A0%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</loc>
+    <loc>http://ckblogs.cn/2021/04/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</loc>
     
-    <lastmod>2021-04-10</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ckblogs.cn/2021/04/10/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</loc>
-    
-    <lastmod>2021-04-10</lastmod>
+    <lastmod>2021-04-13</lastmod>
     
   </url>
   
   <url>
-    <loc>http://ckblogs.cn/2021/04/10/hello-world/</loc>
+    <loc>http://ckblogs.cn/link/index.html</loc>
     
-    <lastmod>2021-04-10</lastmod>
+    <lastmod>2021-04-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ckblogs.cn/categories/index.html</loc>
+    
+    <lastmod>2021-04-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ckblogs.cn/tags/index.html</loc>
+    
+    <lastmod>2021-04-13</lastmod>
     
   </url>
   
 
   <url>
     <loc>http://ckblogs.cn/</loc>
-    <lastmod>2021-04-12</lastmod>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>http://ckblogs.cn/tags/%E6%A0%87%E7%AD%BE1/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ckblogs.cn/tags/%E6%A0%87%E7%AD%BE2/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>http://ckblogs.cn/categories/%E5%88%86%E7%B1%BB1/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
