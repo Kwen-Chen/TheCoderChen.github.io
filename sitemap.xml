@@ -88,7 +88,7 @@
 
   
   <url>
-    <loc>http://ckblogs.cn/tags/%E6%94%AF%E6%95%99/</loc>
+    <loc>http://ckblogs.cn/tags/%E5%B0%9D%E8%AF%95/</loc>
     <lastmod>2021-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -96,13 +96,6 @@
   
   <url>
     <loc>http://ckblogs.cn/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2021-04-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ckblogs.cn/tags/%E5%B0%9D%E8%AF%95/</loc>
     <lastmod>2021-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -136,14 +129,14 @@
     <priority>0.6</priority>
   </url>
   
-
-  
   <url>
-    <loc>http://ckblogs.cn/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E5%8F%97/</loc>
+    <loc>http://ckblogs.cn/tags/%E6%94%AF%E6%95%99/</loc>
     <lastmod>2021-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
+  
+
   
   <url>
     <loc>http://ckblogs.cn/categories/%E5%85%B6%E4%BB%96/</loc>
@@ -168,6 +161,13 @@
   
   <url>
     <loc>http://ckblogs.cn/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/</loc>
+    <lastmod>2021-04-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ckblogs.cn/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E5%8F%97/</loc>
     <lastmod>2021-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
