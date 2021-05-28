@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ckblogs.cn/2021/04/24/%E2%80%9C%E5%BC%80%E5%90%AF%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E4%B9%8B%E6%97%85%E2%80%9D/</loc>
+    
+    <lastmod>2021-05-28</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ckblogs.cn/2021/05/29/Python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB-%E8%99%AB%E6%9C%AF-%E6%95%AC%E8%AF%B7%E6%9C%9F%E5%BE%85/</loc>
     
     <lastmod>2021-05-28</lastmod>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>http://ckblogs.cn/2021/04/24/2021%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/</loc>
-    
-    <lastmod>2021-05-28</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ckblogs.cn/2021/04/24/%E2%80%9C%E5%BC%80%E5%90%AF%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E4%B9%8B%E6%97%85%E2%80%9D/</loc>
     
     <lastmod>2021-05-28</lastmod>
     
@@ -109,7 +109,14 @@
 
   
   <url>
-    <loc>http://ckblogs.cn/tags/%E5%B0%9D%E8%AF%95/</loc>
+    <loc>http://ckblogs.cn/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2021-05-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ckblogs.cn/tags/%E6%84%9F%E5%BF%B5/</loc>
     <lastmod>2021-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -130,14 +137,7 @@
   </url>
   
   <url>
-    <loc>http://ckblogs.cn/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2021-05-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ckblogs.cn/tags/%E6%84%9F%E5%BF%B5/</loc>
+    <loc>http://ckblogs.cn/tags/%E5%B0%9D%E8%AF%95/</loc>
     <lastmod>2021-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -188,7 +188,7 @@
 
   
   <url>
-    <loc>http://ckblogs.cn/categories/%E5%85%B6%E4%BB%96/</loc>
+    <loc>http://ckblogs.cn/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2021-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -202,7 +202,7 @@
   </url>
   
   <url>
-    <loc>http://ckblogs.cn/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>http://ckblogs.cn/categories/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2021-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
