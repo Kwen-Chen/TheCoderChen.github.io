@@ -277,7 +277,35 @@
   </url>
   
   <url>
+    <loc>http://ckblogs.cn/tags/%E7%81%B0%E8%89%B2%E9%A2%84%E6%B5%8B/</loc>
+    <lastmod>2021-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ckblogs.cn/tags/%E9%A2%84%E6%B5%8B%E7%B1%BB%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2021-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://ckblogs.cn/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/</loc>
+    <lastmod>2021-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ckblogs.cn/tags/LaTex/</loc>
+    <lastmod>2021-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ckblogs.cn/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -292,20 +320,6 @@
   
   <url>
     <loc>http://ckblogs.cn/tags/%E5%9B%9E%E6%BA%AF%E6%B3%95/</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ckblogs.cn/tags/%E7%81%B0%E8%89%B2%E9%A2%84%E6%B5%8B/</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ckblogs.cn/tags/%E9%A2%84%E6%B5%8B%E7%B1%BB%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -327,20 +341,6 @@
   
   <url>
     <loc>http://ckblogs.cn/tags/TOPSIS/</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ckblogs.cn/tags/LaTex/</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ckblogs.cn/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
