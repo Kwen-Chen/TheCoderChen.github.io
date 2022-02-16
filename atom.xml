@@ -6,7 +6,7 @@
   <link href="http://ckblogs.cn/atom.xml" rel="self"/>
   
   <link href="http://ckblogs.cn/"/>
-  <updated>2022-02-16T09:04:27.976Z</updated>
+  <updated>2022-02-16T09:14:55.981Z</updated>
   <id>http://ckblogs.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python 语法糖：你真的会用 Python 吗？</title>
+    <link href="http://ckblogs.cn/2022/02/16/Python%20%E8%AF%AD%E6%B3%95%E7%B3%96%EF%BC%9A%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BC%9A%E7%94%A8%20Python%20%E5%90%97%EF%BC%9F/"/>
+    <id>http://ckblogs.cn/2022/02/16/Python%20%E8%AF%AD%E6%B3%95%E7%B3%96%EF%BC%9A%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BC%9A%E7%94%A8%20Python%20%E5%90%97%EF%BC%9F/</id>
+    <published>2022-02-16T09:00:00.000Z</published>
+    <updated>2022-02-16T09:14:55.981Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="http://ckblogs.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Python" scheme="http://ckblogs.cn/tags/Python/"/>
+    
+    <category term="技巧" scheme="http://ckblogs.cn/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>数据结构（上） —— 线性表、栈、队列、串</title>
@@ -288,11 +315,11 @@
     <category term="数学建模" scheme="http://ckblogs.cn/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
     
     
+    <category term="数学建模" scheme="http://ckblogs.cn/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
+    
     <category term="灰色预测" scheme="http://ckblogs.cn/tags/%E7%81%B0%E8%89%B2%E9%A2%84%E6%B5%8B/"/>
     
     <category term="预测类算法" scheme="http://ckblogs.cn/tags/%E9%A2%84%E6%B5%8B%E7%B1%BB%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="数学建模" scheme="http://ckblogs.cn/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
     
   </entry>
   
@@ -518,33 +545,6 @@
     <id>http://ckblogs.cn/2021/07/11/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E5%9B%9B%EF%BC%89/</id>
     <published>2021-07-11T08:11:42.000Z</published>
     <updated>2021-08-13T16:44:47.906Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="生活" scheme="http://ckblogs.cn/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="支教" scheme="http://ckblogs.cn/tags/%E6%94%AF%E6%95%99/"/>
-    
-    <category term="生活" scheme="http://ckblogs.cn/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2021 暑假支教日志（三）</title>
-    <link href="http://ckblogs.cn/2021/07/10/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E4%B8%89%EF%BC%89/"/>
-    <id>http://ckblogs.cn/2021/07/10/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E4%B8%89%EF%BC%89/</id>
-    <published>2021-07-10T08:11:42.000Z</published>
-    <updated>2021-08-13T16:44:22.842Z</updated>
     
     
       
