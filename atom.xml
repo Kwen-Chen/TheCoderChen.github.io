@@ -6,7 +6,7 @@
   <link href="http://ckblogs.cn/atom.xml" rel="self"/>
   
   <link href="http://ckblogs.cn/"/>
-  <updated>2022-02-16T09:14:55.981Z</updated>
+  <updated>2022-03-14T13:35:23.182Z</updated>
   <id>http://ckblogs.cn/</id>
   
   <author>
@@ -17,11 +17,65 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Qt C++ Python 混合编程测试使用文档</title>
+    <link href="http://ckblogs.cn/2022/03/14/Qt%20Python%20%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/"/>
+    <id>http://ckblogs.cn/2022/03/14/Qt%20Python%20%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/</id>
+    <published>2022-03-14T13:40:00.000Z</published>
+    <updated>2022-03-14T13:35:23.182Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="http://ckblogs.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Qt - C++" scheme="http://ckblogs.cn/tags/Qt-C/"/>
+    
+    <category term="Python - 混合编程" scheme="http://ckblogs.cn/tags/Python-%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Qt C++ Matlab 混合编程测试使用文档</title>
+    <link href="http://ckblogs.cn/2022/03/14/Qt%20Matlab%20%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B%E6%B5%8B%E8%AF%95%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/"/>
+    <id>http://ckblogs.cn/2022/03/14/Qt%20Matlab%20%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B%E6%B5%8B%E8%AF%95%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/</id>
+    <published>2022-03-14T13:35:00.000Z</published>
+    <updated>2022-03-14T13:35:50.919Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="http://ckblogs.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Qt - C++" scheme="http://ckblogs.cn/tags/Qt-C/"/>
+    
+    <category term="Matlab - 混合编程" scheme="http://ckblogs.cn/tags/Matlab-%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Python 语法糖：你真的会用 Python 吗？</title>
     <link href="http://ckblogs.cn/2022/02/16/Python%20%E8%AF%AD%E6%B3%95%E7%B3%96%EF%BC%9A%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BC%9A%E7%94%A8%20Python%20%E5%90%97%EF%BC%9F/"/>
     <id>http://ckblogs.cn/2022/02/16/Python%20%E8%AF%AD%E6%B3%95%E7%B3%96%EF%BC%9A%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BC%9A%E7%94%A8%20Python%20%E5%90%97%EF%BC%9F/</id>
     <published>2022-02-16T09:00:00.000Z</published>
-    <updated>2022-02-16T09:14:55.981Z</updated>
+    <updated>2022-03-14T13:29:52.330Z</updated>
     
     
       
@@ -315,11 +369,11 @@
     <category term="数学建模" scheme="http://ckblogs.cn/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
     
     
-    <category term="数学建模" scheme="http://ckblogs.cn/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
-    
     <category term="灰色预测" scheme="http://ckblogs.cn/tags/%E7%81%B0%E8%89%B2%E9%A2%84%E6%B5%8B/"/>
     
     <category term="预测类算法" scheme="http://ckblogs.cn/tags/%E9%A2%84%E6%B5%8B%E7%B1%BB%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="数学建模" scheme="http://ckblogs.cn/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
     
   </entry>
   
@@ -491,60 +545,6 @@
     <id>http://ckblogs.cn/2021/07/14/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E5%85%AD%EF%BC%89/</id>
     <published>2021-07-14T08:11:42.000Z</published>
     <updated>2021-08-13T16:45:18.605Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="生活" scheme="http://ckblogs.cn/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="支教" scheme="http://ckblogs.cn/tags/%E6%94%AF%E6%95%99/"/>
-    
-    <category term="生活" scheme="http://ckblogs.cn/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2021 暑假支教日志（五）</title>
-    <link href="http://ckblogs.cn/2021/07/12/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E4%BA%94%EF%BC%89/"/>
-    <id>http://ckblogs.cn/2021/07/12/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E4%BA%94%EF%BC%89/</id>
-    <published>2021-07-12T08:11:42.000Z</published>
-    <updated>2021-08-13T16:44:56.018Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="生活" scheme="http://ckblogs.cn/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="支教" scheme="http://ckblogs.cn/tags/%E6%94%AF%E6%95%99/"/>
-    
-    <category term="生活" scheme="http://ckblogs.cn/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2021 暑假支教日志（四）</title>
-    <link href="http://ckblogs.cn/2021/07/11/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E5%9B%9B%EF%BC%89/"/>
-    <id>http://ckblogs.cn/2021/07/11/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E5%9B%9B%EF%BC%89/</id>
-    <published>2021-07-11T08:11:42.000Z</published>
-    <updated>2021-08-13T16:44:47.906Z</updated>
     
     
       
