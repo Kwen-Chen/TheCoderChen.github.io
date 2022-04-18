@@ -6,15 +6,36 @@
   <link href="http://ckblogs.cn/atom.xml" rel="self"/>
   
   <link href="http://ckblogs.cn/"/>
-  <updated>2022-03-14T13:35:23.182Z</updated>
+  <updated>2022-03-23T13:37:02.000Z</updated>
   <id>http://ckblogs.cn/</id>
   
   <author>
-    <name>CoderChen</name>
+    <name>KernChen</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://ckblogs.cn/2022/03/23/%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <id>http://ckblogs.cn/2022/03/23/%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</id>
+    <published>2022-03-23T13:40:49.437Z</published>
+    <updated>2022-03-23T13:37:02.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Qt C++ Python 混合编程测试使用文档</title>
@@ -518,33 +539,6 @@
     <id>http://ckblogs.cn/2021/07/15/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E4%B8%83%EF%BC%89/</id>
     <published>2021-07-15T08:11:42.000Z</published>
     <updated>2021-08-13T16:45:49.705Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="生活" scheme="http://ckblogs.cn/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="支教" scheme="http://ckblogs.cn/tags/%E6%94%AF%E6%95%99/"/>
-    
-    <category term="生活" scheme="http://ckblogs.cn/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2021 暑假支教日志（六）</title>
-    <link href="http://ckblogs.cn/2021/07/14/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E5%85%AD%EF%BC%89/"/>
-    <id>http://ckblogs.cn/2021/07/14/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E5%85%AD%EF%BC%89/</id>
-    <published>2021-07-14T08:11:42.000Z</published>
-    <updated>2021-08-13T16:45:18.605Z</updated>
     
     
       
