@@ -6,7 +6,7 @@
   <link href="http://ckblogs.cn/atom.xml" rel="self"/>
   
   <link href="http://ckblogs.cn/"/>
-  <updated>2022-03-23T13:37:02.000Z</updated>
+  <updated>2022-07-20T14:41:10.562Z</updated>
   <id>http://ckblogs.cn/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://ckblogs.cn/2022/03/23/%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    <id>http://ckblogs.cn/2022/03/23/%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</id>
-    <published>2022-03-23T13:40:49.437Z</published>
-    <updated>2022-03-23T13:37:02.000Z</updated>
+    <title>2022 至微公益团队第十三届支教总结</title>
+    <link href="http://ckblogs.cn/2022/07/20/%E8%87%B3%E5%BE%AE%E5%85%AC%E7%9B%8A%E5%9B%A2%E9%98%9F%E7%AC%AC%E5%8D%81%E4%B8%89%E5%B1%8A%E6%94%AF%E6%95%99%E6%80%BB%E7%BB%93/"/>
+    <id>http://ckblogs.cn/2022/07/20/%E8%87%B3%E5%BE%AE%E5%85%AC%E7%9B%8A%E5%9B%A2%E9%98%9F%E7%AC%AC%E5%8D%81%E4%B8%89%E5%B1%8A%E6%94%AF%E6%95%99%E6%80%BB%E7%BB%93/</id>
+    <published>2022-07-20T14:11:42.000Z</published>
+    <updated>2022-07-20T14:41:10.562Z</updated>
     
     
       
@@ -34,6 +34,12 @@
     
     
     
+    <category term="生活" scheme="http://ckblogs.cn/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="支教" scheme="http://ckblogs.cn/tags/%E6%94%AF%E6%95%99/"/>
+    
+    <category term="生活" scheme="http://ckblogs.cn/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -42,7 +48,7 @@
     <link href="http://ckblogs.cn/2022/03/14/Qt%20Python%20%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/"/>
     <id>http://ckblogs.cn/2022/03/14/Qt%20Python%20%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/</id>
     <published>2022-03-14T13:40:00.000Z</published>
-    <updated>2022-03-14T13:35:23.182Z</updated>
+    <updated>2022-07-20T14:43:41.623Z</updated>
     
     
       
@@ -69,7 +75,7 @@
     <link href="http://ckblogs.cn/2022/03/14/Qt%20Matlab%20%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B%E6%B5%8B%E8%AF%95%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/"/>
     <id>http://ckblogs.cn/2022/03/14/Qt%20Matlab%20%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B%E6%B5%8B%E8%AF%95%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/</id>
     <published>2022-03-14T13:35:00.000Z</published>
-    <updated>2022-03-14T13:35:50.919Z</updated>
+    <updated>2022-07-20T14:42:01.703Z</updated>
     
     
       
@@ -88,6 +94,31 @@
     <category term="Qt - C++" scheme="http://ckblogs.cn/tags/Qt-C/"/>
     
     <category term="Matlab - 混合编程" scheme="http://ckblogs.cn/tags/Matlab-%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据通信与计算机网络——（一）概述</title>
+    <link href="http://ckblogs.cn/2022/03/13/%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <id>http://ckblogs.cn/2022/03/13/%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</id>
+    <published>2022-03-13T13:40:00.000Z</published>
+    <updated>2022-07-20T14:43:33.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="http://ckblogs.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="计算机网络" scheme="http://ckblogs.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
@@ -220,11 +251,11 @@
     <category term="编程" scheme="http://ckblogs.cn/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
+    <category term="爬虫" scheme="http://ckblogs.cn/tags/%E7%88%AC%E8%99%AB/"/>
+    
     <category term="Python" scheme="http://ckblogs.cn/tags/Python/"/>
     
     <category term="技巧" scheme="http://ckblogs.cn/tags/%E6%8A%80%E5%B7%A7/"/>
-    
-    <category term="爬虫" scheme="http://ckblogs.cn/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
@@ -330,13 +361,13 @@
     <category term="数学建模" scheme="http://ckblogs.cn/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
     
     
-    <category term="数学建模" scheme="http://ckblogs.cn/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
-    
     <category term="Matlab" scheme="http://ckblogs.cn/tags/Matlab/"/>
     
     <category term="评价类算法" scheme="http://ckblogs.cn/tags/%E8%AF%84%E4%BB%B7%E7%B1%BB%E7%AE%97%E6%B3%95/"/>
     
     <category term="TOPSIS" scheme="http://ckblogs.cn/tags/TOPSIS/"/>
+    
+    <category term="数学建模" scheme="http://ckblogs.cn/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
     
   </entry>
   
@@ -390,11 +421,11 @@
     <category term="数学建模" scheme="http://ckblogs.cn/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
     
     
+    <category term="数学建模" scheme="http://ckblogs.cn/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
+    
     <category term="灰色预测" scheme="http://ckblogs.cn/tags/%E7%81%B0%E8%89%B2%E9%A2%84%E6%B5%8B/"/>
     
     <category term="预测类算法" scheme="http://ckblogs.cn/tags/%E9%A2%84%E6%B5%8B%E7%B1%BB%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="数学建模" scheme="http://ckblogs.cn/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
     
   </entry>
   
@@ -512,33 +543,6 @@
     <id>http://ckblogs.cn/2021/07/16/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E5%85%AB%EF%BC%89/</id>
     <published>2021-07-16T08:11:42.000Z</published>
     <updated>2021-08-13T16:46:00.018Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="生活" scheme="http://ckblogs.cn/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="支教" scheme="http://ckblogs.cn/tags/%E6%94%AF%E6%95%99/"/>
-    
-    <category term="生活" scheme="http://ckblogs.cn/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2021 暑假支教日志（七）</title>
-    <link href="http://ckblogs.cn/2021/07/15/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E4%B8%83%EF%BC%89/"/>
-    <id>http://ckblogs.cn/2021/07/15/2021%20%E6%9A%91%E5%81%87%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97%EF%BC%88%E4%B8%83%EF%BC%89/</id>
-    <published>2021-07-15T08:11:42.000Z</published>
-    <updated>2021-08-13T16:45:49.705Z</updated>
     
     
       
