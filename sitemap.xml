@@ -431,20 +431,6 @@
   </url>
   
   <url>
-    <loc>http://ckblogs.cn/tags/%E7%81%B0%E8%89%B2%E9%A2%84%E6%B5%8B/</loc>
-    <lastmod>2022-10-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ckblogs.cn/tags/%E9%A2%84%E6%B5%8B%E7%B1%BB%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2022-10-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://ckblogs.cn/tags/Matlab/</loc>
     <lastmod>2022-10-28</lastmod>
     <changefreq>daily</changefreq>
@@ -460,6 +446,20 @@
   
   <url>
     <loc>http://ckblogs.cn/tags/TOPSIS/</loc>
+    <lastmod>2022-10-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ckblogs.cn/tags/%E7%81%B0%E8%89%B2%E9%A2%84%E6%B5%8B/</loc>
+    <lastmod>2022-10-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ckblogs.cn/tags/%E9%A2%84%E6%B5%8B%E7%B1%BB%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2022-10-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
