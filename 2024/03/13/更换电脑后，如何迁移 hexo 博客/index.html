@@ -1,0 +1,274 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>更换电脑后，如何迁移hexo博客？包括建立本地 Git 与 Github 的公钥连接步骤详解 | 热爱折腾，享受生活</title><meta name="keywords" content="技巧,博客,hexo"><meta name="author" content="KernChen"><meta name="copyright" content="KernChen"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="更换电脑后，如何迁移 hexo 博客？包括建立本地 Git 与 Github 的公钥连接步骤详解 [TOC] 近日更换电脑后，想迁移本地的 hexo 博客，网上教程很多，但想做一个系统且全面的记录，故作此文。 需要的步骤有：迁移 hexo 文件夹、git 客户端的下载与安装 、本地Git与Github公钥连接、npm的下载与安装、hexo的下载与安装。 1. 迁移本地 hexo 文件夹 需要拷贝原">
+<meta property="og:type" content="article">
+<meta property="og:title" content="更换电脑后，如何迁移hexo博客？包括建立本地 Git 与 Github 的公钥连接步骤详解">
+<meta property="og:url" content="http://ckblogs.cn/2024/03/13/%E6%9B%B4%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%EF%BC%8C%E5%A6%82%E4%BD%95%E8%BF%81%E7%A7%BB%20hexo%20%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:site_name" content="热爱折腾，享受生活">
+<meta property="og:description" content="更换电脑后，如何迁移 hexo 博客？包括建立本地 Git 与 Github 的公钥连接步骤详解 [TOC] 近日更换电脑后，想迁移本地的 hexo 博客，网上教程很多，但想做一个系统且全面的记录，故作此文。 需要的步骤有：迁移 hexo 文件夹、git 客户端的下载与安装 、本地Git与Github公钥连接、npm的下载与安装、hexo的下载与安装。 1. 迁移本地 hexo 文件夹 需要拷贝原">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/wallhaven-72yzje.jpg">
+<meta property="article:published_time" content="2024-03-13T13:00:00.000Z">
+<meta property="article:modified_time" content="2024-03-13T14:17:29.792Z">
+<meta property="article:author" content="KernChen">
+<meta property="article:tag" content="技巧">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/wallhaven-72yzje.jpg"><link rel="shortcut icon" href="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/fields.png"><link rel="canonical" href="http://ckblogs.cn/2024/03/13/%E6%9B%B4%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%EF%BC%8C%E5%A6%82%E4%BD%95%E8%BF%81%E7%A7%BB%20hexo%20%E5%8D%9A%E5%AE%A2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js" defer></script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?txlDtbwl9XLPnISR";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: {"appId":"MDR4GQNLHW","apiKey":"1b8d562b534520bc87ff92553c3b3815","indexName":"Search","hits":{"per_page":6},"languages":{"input_placeholder":"搜索文章","hits_empty":"找不到您查询的内容：${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: KernChen","link":"链接: ","source":"来源: 热爱折腾，享受生活","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-03-13 22:17:29'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    })(window)</script><link rel="stylesheet" href="/css/bilibili.css"><link rel="stylesheet" href="//at.alicdn.com/t/font_2485236_e30cy4bq8bs.css"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="热爱折腾，享受生活" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/ECC5A66FD27C9118F1B57C4451B3B045.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">38</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">39</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-file-code"></i><span> 试验田</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/myhtml/test.html"><i class="fa-fw fas fa-code"></i><span> 圈小猫</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://imgtable.oss-cn-chengdu.aliyuncs.com/img/wallhaven-72yzje.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">热爱折腾，享受生活</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-file-code"></i><span> 试验田</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/myhtml/test.html"><i class="fa-fw fas fa-code"></i><span> 圈小猫</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">更换电脑后，如何迁移hexo博客？包括建立本地 Git 与 Github 的公钥连接步骤详解</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-03-13T13:00:00.000Z" title="发表于 2024-03-13 21:00:00">2024-03-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-03-13T14:17:29.792Z" title="更新于 2024-03-13 22:17:29">2024-03-13</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E5%B7%A7/">技巧</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">863</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>2分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="更换电脑后，如何迁移hexo博客？包括建立本地 Git 与 Github 的公钥连接步骤详解"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><div class="top-img gist" style="background-image: url(https://imgtable.oss-cn-chengdu.aliyuncs.com/img/wallhaven-72yzje.jpg)"></div><article class="post-content" id="article-container"><h1>更换电脑后，如何迁移 hexo 博客？包括建立本地 Git 与 Github 的公钥连接步骤详解</h1>
+<p>[TOC]</p>
+<p>近日更换电脑后，想迁移本地的 hexo 博客，网上教程很多，但想做一个系统且全面的记录，故作此文。</p>
+<p>需要的步骤有：迁移 hexo 文件夹、git 客户端的下载与安装 、本地Git与Github公钥连接、npm的下载与安装、hexo的下载与安装。</p>
+<h2 id="1-迁移本地-hexo-文件夹">1. 迁移本地 hexo 文件夹</h2>
+<p>需要拷贝原电脑项目文件中的_config.yml，themes，source，scaffolds，package.json，.gitignore 等文件到新电脑新建的文件夹中或者建议直接将原文件夹整个打包拷贝到新电脑上。</p>
+<h2 id="2-安装-Git-客户端">2. 安装 Git 客户端</h2>
+<p>Git 客户端的下载地址为 ：<a target="_blank" rel="noopener" href="https://git-scm.com/">https://git-scm.com/</a></p>
+<p>安装过程中重点记住两个点，一个是要添加 Git Bash Here 到右键菜单，一个是要把 Git 添加到全局变量。</p>
+<p>更多的安装技巧参考这篇 9457 点赞， 17548 收藏的万字长文：</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/mukes/article/details/115693833">Git 详细安装教程（详解 Git 安装过程的每一个步骤）</a></p>
+<p>打开 cmd 或者 PowerShell 输入： <code>git -v</code> ，显示 git 版本信息即为安装成功。</p>
+<p><img src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/image-20240313214657497.png" alt="image-20240313214657497"></p>
+<h2 id="3-本地Git与Github公钥连接">3. 本地Git与Github公钥连接</h2>
+<p>安装好 git 的目的在于，我们执行命令 ‘hexo d’ 后，能将我们本地文档推送到 GitHub 上，所以需要建立本地 Git 与 Github 的连接，我们通过生成 ssh 公钥，让 GitHub 能够认识我们本地的电脑，具体操作如下<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo stretchy="false">[</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></msup></mrow><annotation encoding="application/x-tex">^{[1]}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8879999999999999em;vertical-align:0em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8879999999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">[</span><span class="mord mtight">1</span><span class="mclose mtight">]</span></span></span></span></span></span></span></span></span></span></span></span>：</p>
+<p><strong>生成密钥</strong></p>
+<p>打开 git bash，输入命令：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;你的用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的邮箱@qq.com&quot;</span><br><span class="line">ssh-keygen -t rsa -C &quot;你的邮箱@qq.com&quot;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>这里的用户名和邮箱不用纠结，就自己填写就好</p>
+</blockquote>
+<p>执行后面的命令就一路 Enter 就可以，后会生成这个奇怪的图案，记得查看这个红框里的地址，找到这个文件。一般在 C:\\Users\\用户名\\.ssh  文件夹下（记得显示隐藏文件夹），生成了这个 id_rsa.pub 文件，即公钥，我们可以先用记事本打开，把里面的字符串保存一下，一会会用到</p>
+<img src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/image-20240313215654091.png" alt="image-20240313215654091" style="zoom: 67%;" />
+<img src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/image-20240313202309041.png" alt="image-20240313202309041" style="zoom:67%;" />
+<p><strong>进入Github，输入密钥</strong><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo stretchy="false">[</mo><mn>2</mn><mo stretchy="false">]</mo></mrow></msup></mrow><annotation encoding="application/x-tex">^{[2]}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8879999999999999em;vertical-align:0em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8879999999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">[</span><span class="mord mtight">2</span><span class="mclose mtight">]</span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>进入 Github 的个人设置界面，找到 SSH and GPG keys 选项：</p>
+<img src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/image-20240313202006890.png" alt="image-20240313202006890" style="zoom: 50%;" />
+<p>这里选择新建 SSH key</p>
+<img src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/image-20240313202148783.png" alt="image-20240313202148783" style="zoom:50%;" />
+<p>点击新增公钥，将之前复制的内容全部粘贴到公钥内容里，公钥名称会自己生成，也可以自己修改，点击添加。</p>
+<img src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/image-20240313202356169.png" alt="image-20240313202356169" style="zoom:50%;" />
+<blockquote>
+<p>注意，这里的密钥格式可能各不相同，但按照我刚刚的步骤，一般都是以 ssh-rsa 开头的，只需要全部复制进 Key 里就可以了。</p>
+</blockquote>
+<h2 id="4-安装-npm">4.  安装 npm</h2>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://nodejs.org/en">https://nodejs.org/en</a></p>
+<p>建议选择 20.11.1 LTS 长期稳定版本</p>
+<p><img src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/image-20240313200545301.png" alt="image-20240313200545301"></p>
+<p>一路安装即可。打开 cmd 或者 powershell，输入 <code>npm -v</code> ，如下显示，即为正常。</p>
+<img src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/image-20240313220439218.png" alt="image-20240313220439218" style="zoom:50%;" />
+<h2 id="5-安装hexo">5. 安装hexo</h2>
+<p>在博客文件夹下，打开 git bush，输入以下命令<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo stretchy="false">[</mo><mn>3</mn><mo stretchy="false">]</mo></mrow></msup></mrow><annotation encoding="application/x-tex">^{[3]}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8879999999999999em;vertical-align:0em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8879999999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">[</span><span class="mord mtight">3</span><span class="mclose mtight">]</span></span></span></span></span></span></span></span></span></span></span></span>：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p>至此，已经全部完成了迁移步骤，不出意外的话，已经可以上传博文了，建议 hexo new、cl、g、s、d四连尝试一下。</p>
+<p><strong>参考博文：</strong></p>
+<p>[1] <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/34791004#:~:text=hexo%20%E8%BF%81%E7%A7%BB%E8%87%B3%E6%96%B0%E7%94%B5%E8%84%91%201%20%E6%8B%B7%E8%B4%9D%E5%8E%9F%E7%94%B5%E8%84%91%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84_config.yml%EF%BC%8Cthemes%EF%BC%8Csource%EF%BC%8Cscaffolds%EF%BC%8Cpackage.json%EF%BC%8C.gitignore%E5%88%B0%E6%96%B0%E7%94%B5%E8%84%91%E6%96%B0%E5%BB%BA%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%AD%EF%BC%9B%202,%E4%BD%BF%E7%94%A8git%20bash%20%E8%BF%9B%E5%85%A5%E6%AD%A4%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%9A%203%20%E6%89%A7%E8%A1%8C%E5%A6%82%E4%B8%8B%E5%91%BD%E4%BB%A4%EF%BC%88%E4%B8%BA%E6%96%B0%E7%94%B5%E8%84%91%E5%85%A8%E5%B1%80%E5%AE%89%E8%A3%85hexo%EF%BC%8C%E5%AE%89%E8%A3%85%E9%A1%B9%E7%9B%AE%E4%BE%9D%E8%B5%96%EF%BC%8C%E5%AE%89%E8%A3%85hexo%E6%8F%92%E4%BB%B6hexo-depolyer-git%EF%BC%89%EF%BC%9A">更换新电脑后，hexo无损方式重新部署</a></p>
+<p>[2] <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/62022220">在github上，如何添加ssh keys(ssh公钥)</a></p>
+<p>[3] <a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_36667170/article/details/118163563">换电脑后怎么迁移hexo博客？</a></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">KernChen</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://ckblogs.cn/2024/03/13/%E6%9B%B4%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%EF%BC%8C%E5%A6%82%E4%BD%95%E8%BF%81%E7%A7%BB%20hexo%20%E5%8D%9A%E5%AE%A2/">http://ckblogs.cn/2024/03/13/%E6%9B%B4%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%EF%BC%8C%E5%A6%82%E4%BD%95%E8%BF%81%E7%A7%BB%20hexo%20%E5%8D%9A%E5%AE%A2/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://ckblogs.cn" target="_blank">热爱折腾，享受生活</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%8A%80%E5%B7%A7/">技巧</a><a class="post-meta__tags" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a><a class="post-meta__tags" href="/tags/hexo/">hexo</a></div><div class="post_share"><div class="addthis_inline_share_toolbox"></div><script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60741bf3aa492151" async="async"></script></div></div><div class="post-reward"><div class="reward-button button--animated"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/images/wechetreward.png" target="_blank"><img class="post-qr-code-img" src="/images/wechetreward.png" alt="你的支持是我的动力"/></a><div class="post-qr-code-desc">你的支持是我的动力</div></li><li class="reward-item"><a href="/images/alipayreward.png" target="_blank"><img class="post-qr-code-img" src="/images/alipayreward.png" alt="谢谢你请我吃糖果"/></a><div class="post-qr-code-desc">谢谢你请我吃糖果</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2024/03/13/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%E4%B8%AD%E7%9A%84%E7%AB%AF%E5%88%B0%E7%AB%AF%20%EF%BC%88end%20to%20end%EF%BC%89/"><img class="next-cover" src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/wallhaven-zy3l5o.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">如何理解深度学习领域中的端到端 （end to end）</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2021/09/26/LaTeX 常用语法格式总结/" title="LaTeX 常用语法格式总结"><img class="cover" src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/wallhaven-g75r7d.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-09-26</div><div class="title">LaTeX 常用语法格式总结</div></div></a></div><div><a href="/2022/02/16/Python 语法糖：你真的会用 Python 吗？/" title="Python 语法糖：你真的会用 Python 吗？"><img class="cover" src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/wallhaven-72rd8e.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-02-16</div><div class="title">Python 语法糖：你真的会用 Python 吗？</div></div></a></div><div><a href="/2021/11/07/Python网络爬虫-虫术-敬请期待/" title="Python网络爬虫---虫术（进行中）"><img class="cover" src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/wallhaven-z8odwg.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-11-07</div><div class="title">Python网络爬虫---虫术（进行中）</div></div></a></div><div><a href="/2021/04/24/不一样的浏览器体验-——油猴篇/" title="不一样的浏览器体验——油猴篇"><img class="cover" src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/wallhaven-g7jg63.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-04-24</div><div class="title">不一样的浏览器体验——油猴篇</div></div></a></div><div><a href="/2021/04/22/不一样的浏览器体验——插件篇/" title="不一样的浏览器体验——插件篇"><img class="cover" src="https://imgtable.oss-cn-chengdu.aliyuncs.com/img/wallhaven-j8lkxw.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-04-22</div><div class="title">不一样的浏览器体验——插件篇</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Twikoo</span><span class="switch-btn"></span><span class="second-comment">Livere</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div><div><div id="lv-container" data-id="city" data-uid="MTAyMC81MzIzOS8yOTcxMw=="></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">更换电脑后，如何迁移 hexo 博客？包括建立本地 Git 与 Github 的公钥连接步骤详解</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E8%BF%81%E7%A7%BB%E6%9C%AC%E5%9C%B0-hexo-%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">1.1.</span> <span class="toc-text">1. 迁移本地 hexo 文件夹</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%AE%89%E8%A3%85-Git-%E5%AE%A2%E6%88%B7%E7%AB%AF"><span class="toc-number">1.2.</span> <span class="toc-text">2. 安装 Git 客户端</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%9C%AC%E5%9C%B0Git%E4%B8%8EGithub%E5%85%AC%E9%92%A5%E8%BF%9E%E6%8E%A5"><span class="toc-number">1.3.</span> <span class="toc-text">3. 本地Git与Github公钥连接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%AE%89%E8%A3%85-npm"><span class="toc-number">1.4.</span> <span class="toc-text">4.  安装 npm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E5%AE%89%E8%A3%85hexo"><span class="toc-number">1.5.</span> <span class="toc-text">5. 安装hexo</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer" style="background-image: url('https://imgtable.oss-cn-chengdu.aliyuncs.com/img/wallhaven-zyxvqy.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2024 By KernChen</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">有朋自远方来，不亦乐乎</div><div class="icp"><a target="_blank" rel="noopener" href="http://beian.miit.gov.cn"><img class="icp-icon" src="http://www.beian.gov.cn/img/new/gongan.png# 图标"/><span>蜀ICP备2022009510号</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="algolia-search"><div class="search-dialog"><div class="search-dialog__title" id="algolia-search-title">Algolia</div><div id="algolia-input-panel"><div id="algolia-search-input"></div></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-stats"></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="/js/search/algolia.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.css"><script>(() => {
+  document.querySelectorAll('#article-container span.katex-display').forEach(item => {
+    btf.wrap(item, 'div', '', 'katex-wrap')
+  })
+})()</script><script>(()=>{
+  const $countDom = document.getElementById('twikoo-count')
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'http://124.221.0.27:8099/',
+      region: ''
+    }, null))
+  }
+
+  const getCount = () => {
+    twikoo.getCommentsCount({
+      envId: 'http://124.221.0.27:8099/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(function (res) {
+      $countDom.innerText = res[0].count
+    }).catch(function (err) {
+      console.error(err);
+    });
+  }
+
+  const loadTwikoo = (bool = false) => {
+    if (typeof twikoo === 'object') {
+      init()
+      bool && $countDom && setTimeout(getCount,0)
+    } else {
+      getScript('https://cdn.jsdelivr.net/npm/twikoo@1.3.0/dist/twikoo.all.min.js').then(()=> {
+        init()
+        bool && $countDom && setTimeout(getCount,0)
+      })
+    }
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo(true)
+  } else {
+    window.loadOtherComment = () => {
+      loadTwikoo()
+    }
+  }
+})()</script><script>function loadLivere () {
+  if (typeof LivereTower === 'object') {
+    window.LivereTower.init()
+  }
+  else {
+    (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+  }
+}
+
+if ('Twikoo' === 'Livere' || !true) {
+  if (true) btf.loadComment(document.getElementById('lv-container'), loadLivere)
+  else loadLivere()
+}
+else {
+  function loadOtherComment () {
+    loadLivere()
+  }
+}</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js" data-mobile="false" data-text="你好,欢迎,耶" data-fontsize="15px" data-random="false" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
